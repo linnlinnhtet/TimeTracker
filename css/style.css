@@ -1,0 +1,224 @@
+header{
+    width: 100%;
+    background-color: rgb(66, 2, 66);
+    display: flex !important;
+    justify-content: space-around;
+    color: cornsilk !important;
+}
+header .logo{
+    display: flex;
+    margin-left: 10px;
+}
+header .logo img{
+    width: 15%;
+    padding: 10px;
+}
+header .logo h1{
+    margin: 0 !important;
+    padding: 20px 0;
+}
+header .logo h1 a{
+    color: cornsilk !important;
+    text-decoration: none;
+    transition: .5s ease-out;
+}
+header .logo h1 a:hover{
+color: rgb(12, 216, 114) !important;
+}
+header ul {
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding: 20px 0;
+    line-height: 1.5;
+    display: inline-flex;
+}
+header ul li{
+    padding: 10px;
+
+}
+header ul li a{
+ color: cornsilk !important;
+ text-decoration: none !important;
+ font-weight: 500;
+ font-size: 1.2em;
+ transition: .5s ease-out;
+}
+header ul li a:hover{
+    color: rgb(12, 216, 114) !important;
+}
+.container h1{
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.container p{
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.container .row .col-4 img{
+    width: 30%;
+}
+.container .row .col-4 a{
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black !important;
+    text-decoration: none !important;
+    transition: .2s ease-in-out;
+}
+.container .row .col-4 a:hover{
+    color: rgb(12, 216, 114) !important;
+}
+footer{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1em;
+    color: cornsilk;
+    font-weight: 500;
+    padding: 40px 0;
+    background-color: rgb(65, 2, 55);
+}
+footer p {
+    margin-bottom: 0 !important;
+}
+.container .myform{
+    width: 70% !important;
+    margin:  0 auto;
+}
+.container .myform table{
+    background-color: rgba(237, 175, 248, 0.185);
+}
+.container .myform table tr{
+    border: 2px solid black;
+}
+.container .myform table tr th{
+     border: 2px solid black;
+     padding: 20px 10px !important;
+}
+.container .myform table tr th td{
+     border: 2px solid black;
+}
+.container .myform .btn{
+    background-color: rgb(66, 2, 66) !important;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: cornsilk !important;
+    transition: .5s ease-out;
+}
+.container .myform .btn:hover{
+    color: rgb(12, 216, 114) !important;
+}
+.container .report_form{
+    width: 35% !important;
+    padding: 30px;
+    background-color: rgba(237, 175, 248, 0.185);
+}
+/*Task list Style*/
+.container .row .col-12 img{
+    width: 10%;
+}
+.container .row .col-12 a{
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: black !important;
+    text-decoration: none !important;
+    transition: .2s ease-in-out;
+}
+.container .row .col-12 a:hover{
+    color: rgb(12, 216, 114) !important;
+}
+.container .form-container .items{
+    list-style: none;
+    margin: 20px auto;
+    padding: 40px 0;
+    background-color: rgba(251, 253, 253, 0.938);
+    color: black;
+}
+.container .form-container .items li{
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    border-bottom: 1px solid black;
+}
+.container .form-container .items li a{
+    text-decoration: none;
+    color: rebeccapurple !important;
+}
+.container .form-container .items li form input[type='submit']{
+    border: 0;
+    color: rgb(248, 52, 52);
+    padding: 0;
+}
+/*For Error_message*/
+.container .message{
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(134, 5, 5);
+    color: cornsilk;
+}
+/*Reports*/
+.container .reports{
+    width: 90% !important;
+    margin: 0 auto !important;
+    text-align: center;
+}
+.container .reports .reports-list table{
+    background-color: rgba(224, 224, 224, 0.671) !important;
+    font-weight: 600;
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: left !important;
+}
+.container .reports .reports-list table tr,th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.container .reports .reports-list table tr .grand-total-lable{
+    text-align: right;
+}
+.container .reports .reports-list table tr .project_total_label{
+    text-align: right;
+    color: rgba(205, 155, 252, 0.966);
+}
+.container .form-container{
+    margin: 0 auto;
+    padding: 20px;
+}
+.container .form-container .form-reports{
+    width: 30%;
+    margin: 0 auto;
+}
+.container .form-container .form-reports label{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 !important;
+}
+.container .form-container .form-reports input[type="submit"]{
+    margin-top: 20px;
+    background-color: rgb(66, 2, 66) !important;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    color: cornsilk !important;
+    transition: .5s ease-out;
+    border: 0;
+    border-radius: 5px;
+}
+.container .form-container .form-reports input[type="submit"]:hover{
+    color: rgb(12, 216, 114) !important;
+}
+ footer{
+     position: relative;
+     left: 0;
+     bottom: 0;
+ }
